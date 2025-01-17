@@ -41,6 +41,13 @@ body{
     
 }
 
+.nav-child2 button:hover{
+
+    background-color: rgb(63, 191, 157);
+    transition: all 0.5s ease;
+  
+}
+
 #sign p{
    
     color: rgb(0, 106, 80);
@@ -88,8 +95,106 @@ body{
     padding: 10px 15px;
 }
 
+.hero-child1 #hero-explore:hover{
+    background-color: rgb(191, 63, 63);
+    transition: all 0.5s ease;
+}
+
 .hero-child2 img{
     width: 400px;
     height: 300px; 
    
+}
+
+.vision{
+    padding: 0px;
+    margin: 12px 0px;
+}
+
+.vision p{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    
+
+}
+
+.vision-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0px;
+}
+
+.vision-card1{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 20px 30px;
+
+}
+
+.vision-card1 #card-button1{
+    border-radius: 5px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+#card-button1:hover{
+    background-color: rgba(84, 144, 245, 0.2);
+    transition: all 0.5s ease;
+}
+
+.vision-card2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 20px 30px;
+
+}
+
+.vision-card2 #card-button2{
+    border-radius: 5px;
+    background: rgb(9, 161, 92);;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+#card-button2:hover{
+    background-color: rgb(198, 228, 214);
+    transition: all 0.5s ease;
+}
+
+.vision-card3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 20px 30px;
+
+}
+
+.vision-card3 #card-button3{
+    border-radius: 5px;
+    background: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+#card-button3:hover{
+    background-color: rgb(247, 235, 207);
+    transition: all 0.5s ease;
 }
