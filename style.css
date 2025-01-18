@@ -403,3 +403,135 @@ body{
     background-color:rgb(191, 63, 63); 
     transition: all 0.3s ease;
 }
+
+/* General responsiveness for smaller devices */
+@media (max-width: 1200px) {
+    body {
+      margin: 0px 100px 0px 100px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .hero {
+      flex-direction: column;
+      padding: 30px 20px;
+    }
+  
+    .hero-child2 img {
+      width: 300px;
+      height: auto;
+    }
+  
+    .vision-cards {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .donate-cards {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+  
+  /* Adjustments for tablet screens */
+  @media (max-width: 768px) {
+    body {
+      margin: 0px 50px 0px 50px;
+    }
+  
+    .hero {
+      padding: 20px 10px;
+    }
+  
+    .hero-child1 #hero-title {
+      font-size: 20px;
+      line-height: 25px;
+    }
+  
+    .hero-child2 img {
+      width: 250px;
+    }
+  
+    .vision-cards,
+    .donate-cards {
+      gap: 20px;
+    }
+  }
+  
+  /* Adjustments for mobile devices */
+  @media (max-width: 480px) {
+    body {
+      margin: 0px 10px 0px 10px;
+    }
+  
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar .nav-child1 h1 {
+      font-size: 24px;
+    }
+  
+    .hero {
+      padding: 15px;
+    }
+  
+    .hero-child1 #hero-title {
+      font-size: 18px;
+    }
+  
+    .hero-child2 img {
+      width: 200px;
+      height: auto;
+    }
+  
+    .vision-cards,
+    .donate-cards {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .quote-yunus {
+      padding: 15px;
+    }
+  
+    .newsletter-child {
+      padding: 20px;
+    }
+  }
+  @media (max-width: 1200px) {
+    #input {
+        padding: 20px 100px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 992px) {
+    #input {
+        padding: 15px 50px; /* Further reduce padding */
+        width: 100%; /* Ensure full width for medium-sized devices */
+    }
+}
+
+@media (max-width: 768px) {
+    #input {
+        padding: 10px 20px; /* Minimized padding for tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    #input {
+        padding: 10px; /* Compact padding for small devices */
+        width: 100%; /* Maintain full width for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    #input {
+        padding: 5px; /* Minimal padding for very small screens */
+        font-size: 14px; /* Reduce font size for better readability */
+    }
+}
+  
