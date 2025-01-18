@@ -291,3 +291,65 @@ body{
     font-weight: 400;
     text-align: left;
 }
+
+.donate{
+    padding: 30px 20px;
+    background-color: white;
+  
+
+}
+
+.donate-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+}
+
+.child-card{
+    padding: 20px 70px;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.child-card:hover{
+    background-color: rgb(198, 228, 214);;
+    transition: all 0.5s ease;
+    font-weight: 800;
+}
+
+#input{
+    padding: 20px 454px;
+    background-color:  rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.donate-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+}
+#d-button{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px 15px;
+}
+
+#d-button:hover{
+    background-color: rgb(191, 63, 63);
+    transition: all 0.5s ease;
+}
