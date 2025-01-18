@@ -317,7 +317,7 @@ body{
 }
 
 .child-card:hover{
-    background-color: rgb(198, 228, 214);;
+    background-color: rgb(198, 228, 214);
     transition: all 0.5s ease;
     font-weight: 800;
 }
@@ -327,7 +327,10 @@ body{
     background-color:  rgb(255, 255, 255);
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 100%;
 }
+
+
 
 .donate-button{
     display: flex;
@@ -352,4 +355,51 @@ body{
 #d-button:hover{
     background-color: rgb(191, 63, 63);
     transition: all 0.5s ease;
+}
+
+.newsletter-child{
+    padding: 30px 200px;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(198, 228, 214)
+}
+
+
+#form-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    padding: 10px 0px;
+}
+#email {
+    flex: 1;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+}
+
+#email::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#email-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #01642d; 
+    border: none;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    font-weight: bold;
+    
+}
+
+#email-button:hover {
+    background-color:rgb(191, 63, 63); 
+    transition: all 0.3s ease;
 }
